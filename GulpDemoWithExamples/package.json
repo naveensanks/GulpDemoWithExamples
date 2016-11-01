@@ -1,0 +1,32 @@
+{
+  "name": "gulp-demo",
+  "version": "1.0.0",
+  "description": "Demo website for Gulp",
+  "author": "Naveen Sankaran",
+  "devDependencies": {
+    "browser-sync": "*",
+    "del": "*",
+    "gulp": "*",
+    
+	"jasmine": "*",
+    "karma": "*",
+    "karma-jasmine": "*",
+    "karma-chrome-launcher": "*",
+	
+	"gulp-sass": "*",
+	"gulp-pleeease": "*",
+
+	"gulp-typescript": "*",
+	"gulp-jshint": "*",
+	"gulp-concat": "*",
+    "gulp-uglify": "*",
+	"gulp-strip-debug": "*",
+
+	"gulp-preprocess": "*",
+	"gulp-htmlclean": "*",
+    
+    "gulp-size": "*",
+	
+    "matchdep": "*"
+  }
+}

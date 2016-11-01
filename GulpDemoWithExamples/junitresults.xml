@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Util" timestamp="2016-10-28T19:07:35" hostname="localhost" time="0.003" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Util.when util is used to get a timeout value" timestamp="2016-10-28T19:07:35" hostname="localhost" time="0.003" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="Util.when util is used to get a timeout value" name="should return a value of 5000" time="0.002">
+   <failure type="exception" message="ReferenceError: getTimeOutValue is not defined"><![CDATA[ReferenceError: getTimeOutValue is not defined
+    at Object.<anonymous> (D:\Playground\GulpDemoWithExamples\GulpDemoWithExamples\src\js\spec\util-spec.js:7:20)
+    at attemptSync (D:\Playground\GulpDemoWithExamples\GulpDemoWithExamples\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1950:24)
+    at QueueRunner.run (D:\Playground\GulpDemoWithExamples\GulpDemoWithExamples\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1938:9)
+    at QueueRunner.execute (D:\Playground\GulpDemoWithExamples\GulpDemoWithExamples\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1923:10)
+    at Spec.Env.queueRunnerFactory (D:\Playground\GulpDemoWithExamples\GulpDemoWithExamples\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:714:35)
+    at Spec.execute (D:\Playground\GulpDemoWithExamples\GulpDemoWithExamples\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:371:10)
+    at Object.fn (D:\Playground\GulpDemoWithExamples\GulpDemoWithExamples\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2579:37)
+    at attemptAsync (D:\Playground\GulpDemoWithExamples\GulpDemoWithExamples\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1980:24)
+    at QueueRunner.run (D:\Playground\GulpDemoWithExamples\GulpDemoWithExamples\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1935:9)
+    at QueueRunner.execute (D:\Playground\GulpDemoWithExamples\GulpDemoWithExamples\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1923:10)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>
